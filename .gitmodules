@@ -10,6 +10,3 @@
 [submodule "tests/include/amx"]
 	path = tests/include/amx
 	url = https://github.com/Zeex/amx_assembly.git
-[submodule "libs/fmt"]
-	path = libs/fmt
-	url = https://github.com/fmtlib/fmt.git

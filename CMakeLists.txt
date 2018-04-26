@@ -27,9 +27,6 @@ if(NOT Boost_FOUND)
 endif()
 mark_as_advanced(BOOST_ROOT Boost_DIR)
 
-add_subdirectory(libs/fmt)
-mark_as_advanced(FMT_DOC FMT_INSTALL FMT_PEDANTIC FMT_TEST FMT_USE_CPP11)
-
 option(LOGCORE_INSTALL_DEV OFF)
 mark_as_advanced(LOGCORE_INSTALL_DEV)
 add_subdirectory(libs/samp-log-core)
